@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		121A172821195A4500D7EC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A172721195A4500D7EC5D /* AppDelegate.m */; };
-		121A172B21195A4500D7EC5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A172A21195A4500D7EC5D /* ViewController.m */; };
 		121A172E21195A4500D7EC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121A172C21195A4500D7EC5D /* Main.storyboard */; };
 		121A173021195A4800D7EC5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121A172F21195A4800D7EC5D /* Assets.xcassets */; };
 		121A173321195A4800D7EC5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121A173121195A4800D7EC5D /* LaunchScreen.storyboard */; };
 		121A173621195A4800D7EC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A173521195A4800D7EC5D /* main.m */; };
+		121A174421195B0400D7EC5D /* SAFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A174321195B0400D7EC5D /* SAFileCell.m */; };
+		121A174921195B2A00D7EC5D /* SADirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A174621195B2900D7EC5D /* SADirectoryViewController.m */; };
+		121A174A21195B2A00D7EC5D /* UIView+UITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A174821195B2A00D7EC5D /* UIView+UITableViewCell.m */; };
+		121A174C21195E2900D7EC5D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 121A174B21195E2900D7EC5D /* README.md */; };
+		121A17572119841100D7EC5D /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = 121A17552119841100D7EC5D /* File.png */; };
+		121A17582119841100D7EC5D /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 121A17562119841100D7EC5D /* Folder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		121A172321195A4500D7EC5D /* FileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		121A172621195A4500D7EC5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		121A172721195A4500D7EC5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		121A172921195A4500D7EC5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		121A172A21195A4500D7EC5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		121A172D21195A4500D7EC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		121A172F21195A4800D7EC5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121A173221195A4800D7EC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		121A173421195A4800D7EC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		121A173521195A4800D7EC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		121A174221195B0300D7EC5D /* SAFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFileCell.h; sourceTree = "<group>"; };
+		121A174321195B0400D7EC5D /* SAFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFileCell.m; sourceTree = "<group>"; };
+		121A174521195B2900D7EC5D /* UIView+UITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UITableViewCell.h"; sourceTree = "<group>"; };
+		121A174621195B2900D7EC5D /* SADirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SADirectoryViewController.m; sourceTree = "<group>"; };
+		121A174721195B2900D7EC5D /* SADirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SADirectoryViewController.h; sourceTree = "<group>"; };
+		121A174821195B2A00D7EC5D /* UIView+UITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UITableViewCell.m"; sourceTree = "<group>"; };
+		121A174B21195E2900D7EC5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		121A17552119841100D7EC5D /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
+		121A17562119841100D7EC5D /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,7 @@
 		121A171A21195A4500D7EC5D = {
 			isa = PBXGroup;
 			children = (
+				121A174B21195E2900D7EC5D /* README.md */,
 				121A172521195A4500D7EC5D /* FileManager */,
 				121A172421195A4500D7EC5D /* Products */,
 			);
@@ -58,10 +71,14 @@
 		121A172521195A4500D7EC5D /* FileManager */ = {
 			isa = PBXGroup;
 			children = (
+				121A173D21195AE500D7EC5D /* Images */,
+				121A173C21195ABF00D7EC5D /* Cells */,
 				121A172621195A4500D7EC5D /* AppDelegate.h */,
 				121A172721195A4500D7EC5D /* AppDelegate.m */,
-				121A172921195A4500D7EC5D /* ViewController.h */,
-				121A172A21195A4500D7EC5D /* ViewController.m */,
+				121A174721195B2900D7EC5D /* SADirectoryViewController.h */,
+				121A174621195B2900D7EC5D /* SADirectoryViewController.m */,
+				121A174521195B2900D7EC5D /* UIView+UITableViewCell.h */,
+				121A174821195B2A00D7EC5D /* UIView+UITableViewCell.m */,
 				121A172C21195A4500D7EC5D /* Main.storyboard */,
 				121A172F21195A4800D7EC5D /* Assets.xcassets */,
 				121A173121195A4800D7EC5D /* LaunchScreen.storyboard */,
@@ -69,6 +86,24 @@
 				121A173521195A4800D7EC5D /* main.m */,
 			);
 			path = FileManager;
+			sourceTree = "<group>";
+		};
+		121A173C21195ABF00D7EC5D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				121A174221195B0300D7EC5D /* SAFileCell.h */,
+				121A174321195B0400D7EC5D /* SAFileCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		121A173D21195AE500D7EC5D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				121A17552119841100D7EC5D /* File.png */,
+				121A17562119841100D7EC5D /* Folder.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +132,7 @@
 		121A171B21195A4500D7EC5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SA;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = SA;
 				TargetAttributes = {
@@ -128,9 +164,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121A174C21195E2900D7EC5D /* README.md in Resources */,
 				121A173321195A4800D7EC5D /* LaunchScreen.storyboard in Resources */,
+				121A17572119841100D7EC5D /* File.png in Resources */,
 				121A173021195A4800D7EC5D /* Assets.xcassets in Resources */,
 				121A172E21195A4500D7EC5D /* Main.storyboard in Resources */,
+				121A17582119841100D7EC5D /* Folder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				121A172B21195A4500D7EC5D /* ViewController.m in Sources */,
+				121A174921195B2A00D7EC5D /* SADirectoryViewController.m in Sources */,
 				121A173621195A4800D7EC5D /* main.m in Sources */,
 				121A172821195A4500D7EC5D /* AppDelegate.m in Sources */,
+				121A174A21195B2A00D7EC5D /* UIView+UITableViewCell.m in Sources */,
+				121A174421195B0400D7EC5D /* SAFileCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
